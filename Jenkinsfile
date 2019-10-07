@@ -1,5 +1,5 @@
 pipeline {
-     agent {lable 'Test'} and
+     agent { lable 'Test' } and
      stages{
          stage('scm'){
          steps{
