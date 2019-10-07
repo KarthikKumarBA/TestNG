@@ -1,5 +1,5 @@
 pipeline {
-     agent {slave}
+     agent Test
      stages{
          stage('scm'){
          steps{
